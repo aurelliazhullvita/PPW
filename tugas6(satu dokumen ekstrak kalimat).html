@@ -1,0 +1,705 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Mengambil 1 Berita &#8212; My sample book</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'tugas6(satu dokumen ekstrak kalimat)';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to your Jupyter Book
+                </a>
+            </li>
+        </ul>
+        <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="markdown.html">Markdown Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="notebooks.html">Content with notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="markdown-notebooks.html">Notebooks with MyST Markdown</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Ftugas6(satu dokumen ekstrak kalimat).html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/tugas6(satu dokumen ekstrak kalimat).ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Mengambil 1 Berita</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="mengambil-1-berita">
+<h1>Mengambil 1 Berita<a class="headerlink" href="#mengambil-1-berita" title="Link to this heading">#</a></h1>
+<p>Berita Kompas Otomotif : <a class="reference external" href="https://otomotif.kompas.com/read/2024/09/07/060200715/-populer-otomotif-diskon-motor-honda-september-2024-toyota-new-fortuner">https://otomotif.kompas.com/read/2024/09/07/060200715/-populer-otomotif-diskon-motor-honda-september-2024-toyota-new-fortuner</a></p>
+<p><strong>Isi Berita Otomotif</strong> :  Jakarta - Honda menawarkan diskon untuk motor mereka
+pada September 2024. Untuk model Honda CT125, harga on the road mencapai Rp 81.850.000. Bagi yang ingin gaya CT125 dengan anggaran terbatas, modifikasi Supra X 125 menjadi alternatif menarik. Di bengkel Insan Motor Bekasi, modifikasi ini dapat dilakukan dengan biaya sekitar Rp 18 juta hingga Rp 20 juta. Bodinya akan diganti dengan set replika CT125 dari fiberglass, menggunakan basis Supra lama yang masih karburator.</p>
+<p>Berita Kompas Money : <a class="reference external" href="https://money.kompas.com/read/2024/09/06/233526726/kai-uji-coba-teknologi-face-recognition-boarding-gate-di-stasiun-medan?page=all">https://money.kompas.com/read/2024/09/06/233526726/kai-uji-coba-teknologi-face-recognition-boarding-gate-di-stasiun-medan?page=all</a></p>
+<p><strong>Isi Berita Money</strong> : Medan - PT Kereta Api Indonesia (Persero) Divre I Sumatera Utara menguji coba teknologi Face Recognition Boarding Gate di Stasiun Medan mulai 5 September 2024. Teknologi ini dirancang untuk mempermudah dan mempercepat proses boarding penumpang kereta api. Pelanggan hanya perlu melakukan pemindaian wajah yang terintegrasi dengan data tiket, tanpa harus menunjukkan KTP atau bukti cetak tiket.</p>
+<p>Terdapat dua unit mesin Face Recognition yang sedang diuji coba di gate Stasiun Medan. Registrasi dapat dilakukan sekali melalui aplikasi Access by KAI atau langsung di stasiun. Pelanggan yang ingin mendaftar cukup membawa e-KTP dan melakukan pemindaian jari telunjuk. “Proses registrasi ini cepat dan mudah, bisa dilakukan dengan bantuan petugas,” jelas Manajer Humas KAI Divre I Sumut, Anwar Solikhin.</p>
+<p>Setelah registrasi, penumpang tidak perlu mencetak boarding pass. Cukup arahkan wajah ke mesin pemindai, dan jika semua data sesuai, gate akan terbuka otomatis. Teknologi ini diharapkan dapat meningkatkan kenyamanan dan efisiensi dalam perjalanan kereta api.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Mengimpor library yang diperlukan</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="c1"># Teks berita yang telah dirapikan</span>
+<span class="n">news_textOTO_1</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">Isi Berita Otomotif: Jakarta - Motor bebek touring Honda CT125 dibanderol sangat mahal, mencapai Rp 81.850.000 on the road Jakarta. Bagi Anda yang memiliki budget terbatas, namun menginginkan motor bebek ikonik seperti CT125, Anda bisa memodifikasi Supra X 125 menjadi bergaya ala CT125. Salah satu bengkel modifikasi yang bisa mengubah Supra X 125 menjadi CT125 adalah bengkel Insan Motor Bekasi. Bermodal kocek di angka Rp 18 juta hingga Rp 20 juta, pemilik Supra X 125 bisa mengubah motornya jadi &#39;semahal&#39; CT125. &quot;Biaya modifikasi Rp 18-20 jutaan. Kalau belum punya motornya, bisa beli bahannya harga Rp 5 jutaan, yang penting surat-suratnya lengkap,&quot; ungkap pemilik Insan Motor Bekasi, Yustinus Erwan Santoso. Adapun Supra X 125 yang dimodifikasi jadi CT125 oleh Insan Motor Bekasi ini menggunakan basis Supra lama yang masih pakai karburator. Bodi Supra lama dilucuti diganti dengan body set replika Honda CT125 yang terbuat dari bahan fiberglass.</span>
+<span class="s2">&quot;&quot;&quot;</span>
+
+<span class="n">news_textMONEY_2</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">Isi Berita Uang: Medan - PT Kereta Api Indonesia (Persero) Divre I Sumatera Utara menguji coba teknologi Face Recognition Boarding Gate di Stasiun Medan mulai 5 September 2024. Teknologi ini dirancang untuk mempermudah dan mempercepat proses boarding penumpang kereta api. Pelanggan hanya perlu melakukan pemindaian wajah yang terintegrasi dengan data tiket, tanpa harus menunjukkan KTP atau bukti cetak tiket. Terdapat dua unit mesin Face Recognition yang sedang diuji coba di gate Stasiun Medan. Registrasi dapat dilakukan sekali melalui aplikasi Access by KAI atau langsung di stasiun. Pelanggan yang ingin mendaftar cukup membawa e-KTP dan melakukan pemindaian jari telunjuk. &quot;Proses registrasi ini cepat dan mudah, bisa dilakukan dengan bantuan petugas,&quot; jelas Manajer Humas KAI Divre I Sumut, Anwar Solikhin. Setelah registrasi, penumpang tidak perlu mencetak boarding pass. Cukup arahkan wajah ke mesin pemindai, dan jika semua data sesuai, gate akan terbuka otomatis. Teknologi ini diharapkan dapat meningkatkan kenyamanan dan efisiensi dalam perjalanan kereta api.</span>
+<span class="s2">&quot;&quot;&quot;</span>
+
+<span class="c1"># Mengubah teks menjadi DataFrame</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">([</span><span class="n">news_textOTO_1</span><span class="p">,</span> <span class="n">news_textMONEY_2</span><span class="p">],</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">])</span>
+
+<span class="c1"># Menampilkan DataFrame</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>                                                text
+0  \nIsi Berita Otomotif: Jakarta - Motor bebek t...
+1  \nIsi Berita Uang: Medan - PT Kereta Api Indon...
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Mengimpor library yang diperlukan</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_extraction.text</span> <span class="kn">import</span> <span class="n">TfidfVectorizer</span>
+
+<span class="c1"># Menghitung TF-IDF</span>
+<span class="n">tfidf_vectorizer</span> <span class="o">=</span> <span class="n">TfidfVectorizer</span><span class="p">()</span>
+<span class="n">tfidf_matrix</span> <span class="o">=</span> <span class="n">tfidf_vectorizer</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;text&#39;</span><span class="p">])</span>
+
+<span class="c1"># Mengambil nama fitur (kata) dari TF-IDF</span>
+<span class="n">feature_names</span> <span class="o">=</span> <span class="n">tfidf_vectorizer</span><span class="o">.</span><span class="n">get_feature_names_out</span><span class="p">()</span>
+
+<span class="c1"># Menghitung skor TF-IDF untuk setiap fitur</span>
+<span class="n">tfidf_scores</span> <span class="o">=</span> <span class="n">tfidf_matrix</span><span class="o">.</span><span class="n">toarray</span><span class="p">()</span>
+<span class="n">df_tfidf_scores</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">tfidf_scores</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">feature_names</span><span class="p">)</span>
+
+<span class="c1"># Mengurutkan DataFrame berdasarkan skor TF-IDF dari terbesar ke terkecil</span>
+<span class="n">df_top_features</span> <span class="o">=</span> <span class="n">df_tfidf_scores</span><span class="o">.</span><span class="n">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<span class="n">df_top_features</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Feature&#39;</span><span class="p">,</span> <span class="s1">&#39;Score&#39;</span><span class="p">]</span>
+
+<span class="c1"># Pastikan kolom &#39;Score&#39; adalah tipe data numerik</span>
+<span class="n">df_top_features</span><span class="p">[</span><span class="s1">&#39;Score&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_numeric</span><span class="p">(</span><span class="n">df_top_features</span><span class="p">[</span><span class="s1">&#39;Score&#39;</span><span class="p">],</span> <span class="n">errors</span><span class="o">=</span><span class="s1">&#39;coerce&#39;</span><span class="p">)</span>
+
+<span class="c1"># Mengurutkan berdasarkan skor</span>
+<span class="n">df_top_features</span> <span class="o">=</span> <span class="n">df_top_features</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="s1">&#39;Score&#39;</span><span class="p">,</span> <span class="n">ascending</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="c1"># Mengambil 10 fitur terbaik</span>
+<span class="n">top_10_features</span> <span class="o">=</span> <span class="n">df_top_features</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="c1"># Menampilkan 10 fitur terbaik</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;10 Fitur Terbaik:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">top_10_features</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>10 Fitur Terbaik:
+     Feature     Score
+43    ct125  0.387780
+187    yang  0.368817
+166   supra  0.332383
+46      dan  0.309960
+120   motor  0.276986
+148      rp  0.276986
+1       125  0.221588
+33     bisa  0.201770
+15      api  0.185976
+100   medan  0.185976
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Mengimpor library yang diperlukan</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">cosine_similarity</span>
+
+<span class="c1"># Mengambil hanya nama fitur dari 10 fitur teratas</span>
+<span class="n">top_10_feature_names</span> <span class="o">=</span> <span class="n">top_10_features</span><span class="p">[</span><span class="s1">&#39;Feature&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+
+<span class="c1"># Mengambil indeks fitur di vocabulary</span>
+<span class="n">top_10_feature_indices</span> <span class="o">=</span> <span class="p">[</span><span class="n">tfidf_vectorizer</span><span class="o">.</span><span class="n">vocabulary_</span><span class="p">[</span><span class="n">feature</span><span class="p">]</span> <span class="k">for</span> <span class="n">feature</span> <span class="ow">in</span> <span class="n">top_10_feature_names</span><span class="p">]</span>
+
+<span class="c1"># Mengambil kolom TF-IDF untuk 10 fitur teratas</span>
+<span class="n">top_10_tfidf_matrix</span> <span class="o">=</span> <span class="n">tfidf_matrix</span><span class="p">[:,</span> <span class="n">top_10_feature_indices</span><span class="p">]</span>
+
+<span class="c1"># Menghitung cosine similarity</span>
+<span class="n">cosine_sim</span> <span class="o">=</span> <span class="n">cosine_similarity</span><span class="p">(</span><span class="n">top_10_tfidf_matrix</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+
+<span class="c1"># Mengubah hasil cosine similarity menjadi DataFrame untuk kemudahan analisis</span>
+<span class="n">cosine_sim_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cosine_sim</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="n">top_10_feature_names</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">top_10_feature_names</span><span class="p">)</span>
+
+<span class="c1"># Menampilkan cosine similarity</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cosine Similarity Matrix:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">cosine_sim_df</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Cosine Similarity Matrix:
+           ct125      yang     supra       dan     motor        rp       125  \
+ct125  1.000000  0.872683  1.000000  0.000000  1.000000  1.000000  1.000000   
+yang   0.872683  1.000000  0.872683  0.488287  0.872683  0.872683  0.872683   
+supra  1.000000  0.872683  1.000000  0.000000  1.000000  1.000000  1.000000   
+dan    0.000000  0.488287  0.000000  1.000000  0.000000  0.000000  0.000000   
+motor  1.000000  0.872683  1.000000  0.000000  1.000000  1.000000  1.000000   
+rp     1.000000  0.872683  1.000000  0.000000  1.000000  1.000000  1.000000   
+125    1.000000  0.872683  1.000000  0.000000  1.000000  1.000000  1.000000   
+bisa   0.963023  0.971967  0.963023  0.269417  0.963023  0.963023  0.963023   
+api    0.000000  0.488287  0.000000  1.000000  0.000000  0.000000  0.000000   
+medan  0.000000  0.488287  0.000000  1.000000  0.000000  0.000000  0.000000   
+
+           bisa       api     medan  
+ct125  0.963023  0.000000  0.000000  
+yang   0.971967  0.488287  0.488287  
+supra  0.963023  0.000000  0.000000  
+dan    0.269417  1.000000  1.000000  
+motor  0.963023  0.000000  0.000000  
+rp     0.963023  0.000000  0.000000  
+125    0.963023  0.000000  0.000000  
+bisa   1.000000  0.269417  0.269417  
+api    0.269417  1.000000  1.000000  
+medan  0.269417  1.000000  1.000000  
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Menambahkan klasifikasi berdasarkan nilai cosine similarity</span>
+<span class="n">classification</span> <span class="o">=</span> <span class="p">(</span><span class="n">cosine_sim_df</span> <span class="o">&gt;=</span> <span class="mf">0.5</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+
+<span class="c1"># Menampilkan DataFrame klasifikasi</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Classification Matrix:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">classification</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Classification Matrix:
+        ct125  yang  supra  dan  motor  rp  125  bisa  api  medan
+ct125      1     1      1    0      1   1    1     1    0      0
+yang       1     1      1    0      1   1    1     1    0      0
+supra      1     1      1    0      1   1    1     1    0      0
+dan        0     0      0    1      0   0    0     0    1      1
+motor      1     1      1    0      1   1    1     1    0      0
+rp         1     1      1    0      1   1    1     1    0      0
+125        1     1      1    0      1   1    1     1    0      0
+bisa       1     1      1    0      1   1    1     1    0      0
+api        0     0      0    1      0   0    0     0    1      1
+medan      0     0      0    1      0   0    0     0    1      1
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Mengimpor library yang diperlukan</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>  <span class="c1"># Pastikan ini ditambahkan</span>
+
+<span class="c1"># Membuat graf dari matriks klasifikasi</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">from_pandas_adjacency</span><span class="p">(</span><span class="n">classification</span><span class="p">)</span>
+
+<span class="c1"># Menghitung degree</span>
+<span class="n">degree</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">G</span><span class="o">.</span><span class="n">degree</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Degree:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">degree</span><span class="p">)</span>
+
+<span class="c1"># Menghitung closeness centrality</span>
+<span class="n">closeness</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">closeness_centrality</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Closeness Centrality:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">closeness</span><span class="p">)</span>
+
+<span class="c1"># Menghitung betweenness centrality</span>
+<span class="n">betweenness</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">betweenness_centrality</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Betweenness Centrality:</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">betweenness</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Degree:
+ {&#39;ct125&#39;: 8, &#39;yang&#39;: 8, &#39;supra&#39;: 8, &#39;dan&#39;: 4, &#39;motor&#39;: 8, &#39;rp&#39;: 8, &#39;125&#39;: 8, &#39;bisa&#39;: 8, &#39;api&#39;: 4, &#39;medan&#39;: 4}
+
+Closeness Centrality:
+ {&#39;ct125&#39;: 0.6666666666666666, &#39;yang&#39;: 0.6666666666666666, &#39;supra&#39;: 0.6666666666666666, &#39;dan&#39;: 0.2222222222222222, &#39;motor&#39;: 0.6666666666666666, &#39;rp&#39;: 0.6666666666666666, &#39;125&#39;: 0.6666666666666666, &#39;bisa&#39;: 0.6666666666666666, &#39;api&#39;: 0.2222222222222222, &#39;medan&#39;: 0.2222222222222222}
+
+Betweenness Centrality:
+ {&#39;ct125&#39;: 0.0, &#39;yang&#39;: 0.0, &#39;supra&#39;: 0.0, &#39;dan&#39;: 0.0, &#39;motor&#39;: 0.0, &#39;rp&#39;: 0.0, &#39;125&#39;: 0.0, &#39;bisa&#39;: 0.0, &#39;api&#39;: 0.0, &#39;medan&#39;: 0.0}
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+
+<span class="c1"># Mengubah hasil cosine similarity menjadi DataFrame untuk kemudahan analisis</span>
+<span class="n">cosine_sim_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">cosine_sim</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="n">top_10_feature_names</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="n">top_10_feature_names</span><span class="p">)</span>
+
+<span class="c1"># Menambahkan klasifikasi berdasarkan nilai cosine similarity</span>
+<span class="n">classification</span> <span class="o">=</span> <span class="p">(</span><span class="n">cosine_sim_df</span> <span class="o">&gt;=</span> <span class="mf">0.5</span><span class="p">)</span><span class="o">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+
+<span class="c1"># Membuat graf dari matriks klasifikasi</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">from_pandas_adjacency</span><span class="p">(</span><span class="n">classification</span><span class="p">)</span>
+
+<span class="c1"># Menggambar graf</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">spring_layout</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>  <span class="c1"># Menggunakan spring layout untuk penempatan node</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">with_labels</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="s1">&#39;lightblue&#39;</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;gray&#39;</span><span class="p">,</span> <span class="n">node_size</span><span class="o">=</span><span class="mi">3000</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">font_weight</span><span class="o">=</span><span class="s1">&#39;bold&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s2">&quot;Graf Klasifikasi Fitur&quot;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/4aa91c66769556e3672ad5a666eaaafdcc2aa4e15128abfd097ea59723a69223.png" src="_images/4aa91c66769556e3672ad5a666eaaafdcc2aa4e15128abfd097ea59723a69223.png" />
+</div>
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The Jupyter Book Community
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
